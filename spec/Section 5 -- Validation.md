@@ -1104,8 +1104,8 @@ fragment catInDogFragmentInvalid on Dog {
 
 ##### Abstract Spreads in Object Scope
 
-In scope of an object type, unions or interface spreads can be used
-if the object type implements the interface or is a member of the union.
+In scope of an object or interface type, unions or interface spreads can be
+used if the type implements the interface or is a member of the union.
 
 For example
 
@@ -1145,8 +1145,8 @@ declaration, not its body.
 ##### Object Spreads In Abstract Scope
 
 Union or interface spreads can be used within the context of an object type
-fragment, but only if the object type is one of the possible types of
-that interface or union.
+fragment or interface type fragment, but only if the type is one of the
+possible types of that interface or union.
 
 For example, the following fragments are valid:
 
